@@ -1,1 +1,68 @@
 /* Styles for web design system. Later, add responsive features, navigation, other elements. */ 
+
+/* Universal styles */ 
+html {}
+
+body {
+	box-sizing: border-box;
+	background-color: #EBEDEF;
+}
+
+h1 {
+	margin: 1%;
+}
+
+h2 {
+	margin: 1%;
+	padding-top: 1%;
+}
+
+/* Color section */
+
+.container {
+	display: block;
+	background-color: #FFF;
+	height: 500px;
+}
+
+.color-panel {
+	display: inline-block;
+	width: 30%;
+	height: 20%;
+/*	padding: 2%;*/
+	margin: 1%;
+}
+
+.purple {
+	background-color: #8E44AD;
+	padding: 10%;
+}
+
+.teal {
+	background-color: #16A085;
+	padding: 10%;
+}
+
+.blue {
+	background-color: #3498DB;
+	padding: 10%;
+}
+
+.light-grey {
+	background-color: #EBEDEF;
+	padding: 10%; 
+}
+
+.grey {
+	background-color: #D6DBDF;
+	padding: 10%;
+}
+
+.dark-grey {
+	background-color: #ABB2B9;
+	padding: 10%;
+}
+
+/* Font section */ 
+
+/* Text styles section */
